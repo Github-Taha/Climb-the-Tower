@@ -1,0 +1,98 @@
+#startScreen #ground {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    top: 90%;
+    background-color: rgb(175, 175, 175);
+}
+
+#startScreen #player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 25px);
+    top: calc(90% - 50px);
+    background-color: rgb(109, 114, 176);
+}
+
+#startScreen #block1 {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    width: 5%;
+    height: 30%;
+    background-color: rgb(175, 175, 175);
+}
+
+#startScreen #block2 {
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    width: 5%;
+    height: 30%;
+    background-color: rgb(175, 175, 175);
+}
+
+#startScreen #lava1 {
+    position: absolute;
+    left: 0;
+    top: 65%;
+    width: 30%;
+    height: 25%;
+    background-color: red;
+}
+
+#startScreen #lava2 {
+    position: absolute;
+    left: 70%;
+    top: 65%;
+    width: 30%;
+    height: 25%;
+    background-color: red;
+}
+
+#startScreen #title {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    top: 10%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+#startScreen #startbutton {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 15%;
+    top: 40%;
+}
+
+#startScreen #howtobutton {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 60%;
+    top: 40%;
+}
+
+#startScreen #creditbutton {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 40%;
+    top: 60%;
+    background-color: rgb(104, 104, 104);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0%;
+    font-size: 31px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid rgba(152, 152, 152, 150);
+    user-select: none;
+}

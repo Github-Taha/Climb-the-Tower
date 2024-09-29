@@ -1,0 +1,52 @@
+#endScreen #won {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#endScreen #time {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(125, 125, 125);
+}
+
+#endScreen .button {
+    position: absolute;
+    width: 25%;
+    height: fit-content;
+    background-color: rgb(100, 100, 125);
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#endScreen #restartbutton {
+    left: calc(50% - 40%);
+    top: 60%;
+}
+
+#endScreen #nextbutton {
+    left: calc(50% + 15%);
+    top: 60%;
+}
+
+#endScreen #menubutton {
+    left: calc(50% - 12.5%);
+    top: 60%;
+}
