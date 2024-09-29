@@ -227,8 +227,8 @@ window.addEventListener("mousemove", (event) => {
 }) ;
 
 function output(text) {
-    document.getElementById("console").innerText = text;
+    // document.getElementById("console").innerText = text;
 }
 function outputplus(text) {
-    document.getElementById("console").innerText += text;
+    // document.getElementById("console").innerText += text;
 }
