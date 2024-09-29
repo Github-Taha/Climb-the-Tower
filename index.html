@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Climb the Tower</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/startScreen.css">
+        <link rel="stylesheet" href="css/levelScreen.css">
+        <link rel="stylesheet" href="css/howtoScreen.css">
+        <link rel="stylesheet" href="css/endScreen.css">
+        <link rel="stylesheet" href="css/pauseScreen.css">
+        <link rel="stylesheet" href="css/creditScreen.css">
+    </head>
+    <body>
+        <p id="console"></p>
+        <canvas id="canvas" class="screen"></canvas>
+
+        <div id="creditScreen" class="screen">
+            <div class="back">←</div>
+            <h1 id="title">Credits</h1>
+            <h2 id="maker">Climb the Tower by Taha Amir</h2>
+            <div id="design">
+                <h2 id="title">Level Design</h2>
+                <p id="text">
+                    Taha Amir <br>
+                    Daniyal Jamal <br>
+                    Robert Hamza
+                </p>
+            </div>
+            <div id="sfx">
+                <h2 id="title">Sound Effects</h2>
+                <p id="text">
+                    Sound Effects: FreeSound <br>
+                    Background Music: Cloud 9 by Itro & Tobu
+                </p>
+            </div>
+            <div id="testers">
+                <h2 id="title">Game Testers</h2>
+                <p id="text">
+                    Daniyal Jamal, Robert Hamza, Cyril, Mr. Chaves, Asfandyar Amin, Talha Mir.
+                </p>
+            </div>
+            <div id="bot"></div>
+        </div>
+
+        <div id="pauseScreen" class="screen">
+            <h1 id="title">Pause</h1>
+            <div class="button" id="main">Main Page</div>
+            <div class="button" id="continue">Continue</div>
+            <div class="button" id="restart">Restart</div>
+        </div>
+
+        <div id="endScreen" class="screen">
+            <h1 id="won">You Won!</h1>
+            <h1 id="time">0:00</h1>
+            <div id="restartbutton" class="button">Restart</div>
+            <div id="nextbutton" class="button">Next</div>
+            <div id="menubutton" class="button">Levels</div>
+        </div>
+        
+        <div id="levelScreen" class="screen">
+            <div class="back">←</div>
+            <div id="level1" class="level">
+                <p id="levelnum" class="levelnum">1</p>
+                <p id="name" class="levelname">Entrance</p>
+            </div>
+            <div id="level2" class="level">
+                <p id="levelnum" class="levelnum">2</p>
+                <p id="name" class="levelname">Movement</p>
+            </div>
+            <div id="level3" class="level">
+                <p id="levelnum" class="levelnum">3</p>
+                <p id="name" class="levelname">Finale</p>
+            </div>
+            <div id="cover"></div>
+        </div>
+        
+        <div id="howtoScreen" class="screen">
+            <div class="back">←</div>
+            <div id="title">How to Play</div>
+            <div id="descrip">Tower Climb is played with wasd or arrow keys. You can press r to restart to the previous checkpoint. You can press shift+r to restart the level. Pressing p will pause the game.</div>
+        </div>
+
+        <div id="startScreen" class="screen">
+            <div id="ground"></div>
+            <div id="player"></div>
+            <div id="block1"></div>
+            <div id="block2"></div>
+            <div id="lava1"></div>
+            <div id="lava2"></div>
+            <h1 id="title">Climb the Tower</h1>
+            <div id="howtobutton" class="button">How to</div>
+            <div id="startbutton" class="button">Start</div>
+            <div id="creditbutton">Credits</div>
+        </div>
+
+
+        <!-- Utilites -->
+         <script src="js/utilities/sound.js"></script>
+         <script src="js/utilities/userInput.js"></script>
+         <script src="js/utilities/util.js"></script>
+         
+         <!-- Objects -->
+         <script src="js/objects/checkpoint.js"></script>
+         <script src="js/objects/block.js"></script>
+         <script src="js/objects/player.js"></script>
+         <script src="js/objects/flag.js"></script>
+         <script src="js/objects/level.js"></script>
+         <script src="js/objects/point.js"></script>
+         <script src="js/objects/shooter.js"></script>
+         <script src="js/objects/projectile.js"></script>
+         
+         <!-- Main -->
+         <script src="js/main.js"></script>
+         <script src="js/scenes.js"></script>
+    </body>
+</html>
